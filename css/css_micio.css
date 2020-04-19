@@ -1,13 +1,14 @@
 body{
 	font-family: 'Source Sans Pro';
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
-	line-height: 50px;
+	line-height: 35px;
 	margin: 0;
 	}
 
 header{
-	text-align: center;
+	margin-left:30px;
+	text-align: left;
 	padding-top: 30px;
 	padding-bottom: 70px;
 	margin: 0;
@@ -17,14 +18,11 @@ header{
 		color: white;
 		font-size: 70px;
 		}
-		
 	header img{
 		border-radius: 500px;
 	    width: 450px;
 	  	border: 15px solid white;
 		}
-
-
 	h1{font-family: 'Fredericka the Great', cursive;}
 
 	h2{	
@@ -34,37 +32,19 @@ header{
 		min-width: 300px;
 		margin-left: 15px;
 		}
-
 main{
-	width: auto;
-  	height: auto;
+	width:auto;
+	height: auto;
   	margin: 0 auto;
-	padding: 20px;
 	text-align: justify-all;
 }
 
-a:link{color:green;}
-a:visited{color: purple;}
-a:hover{background-color: red;}
-*/
-
 .container_H01par{
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-
 	min-height: 500px; 
+	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-#main.container_01{
-	margin-left: 60px;
-	margin-right: 50px;
-	background-image: url('Img/Sfondo_body.jpg');
-	height: 100px;
 }
 .container_F01{
 	width: auto;
@@ -74,4 +54,38 @@ a:hover{background-color: red;}
 	padding-bottom: 70px;
 	padding-left: 160px;
 	padding-right: 150px;
+}
+
+a:link{color:green;}
+a:visited{color: purple;}
+a:hover{background-color: red;}
+
+.container_01{
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	margin-top: -50px;
+}
+.container_01_text{
+
+	background-size: contain;
+	margin:0;
+	padding: 10px 55px 10px 65px;
+}
+.spazio_1{
+	height: 100vh;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-size: cover;
+	background-position: center;
+}
+.spazio_2{
+	height: 100vh;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-size: cover;
+	background-position: center;
 }
